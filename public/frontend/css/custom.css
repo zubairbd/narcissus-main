@@ -1,0 +1,187 @@
+
+section {
+    padding: 45px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #fff;
+}
+.nar-logo{
+    width: 70px;
+    height: 60px;
+}
+#header .header-inner #logo a, #header .header-inner #logo a span, #header #header-wrap #logo a, #header #header-wrap #logo a span {
+    font-family: poppins,sans-serif;
+    font-size: 40px;
+    color: #262262;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.wc {
+    display: inline-block;
+    text-align: center;
+    padding: 0 218px 10px;
+    background: linear-gradient(90deg, transparent 25%, #262262 25%, lightseagreen 75%, transparent 75%);
+    background-size: 100% 5px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+}
+.p-t-100-p-b-0 {
+    padding-top: 100px !important;
+    padding-bottom: 0;
+}
+.team-members .team-member .team-desc > h3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+.team-members .team-member .team-desc > .designation{
+    margin-bottom: 20px;
+}
+.align-center {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+.team-members.team-members-left .team-member .team-image {
+    float: left;
+    width: 40%;
+    margin-bottom: 0;
+    padding: 50px 0;
+
+}
+
+.team-members.team-members-left .team-member .team-image-right {
+    float: right;
+    width: 40%;
+    margin-bottom: 0;
+
+}
+.team-members.team-members-left .team-member .team-desc {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    padding-left: 30px;
+    text-align: justify;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.message{
+    margin: 0 auto;
+}
+.heading-text.whychoose.heading-section h2 {
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.heading-text.heading-section h2::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 195px;
+    background-color: #262262;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+.whychoose-content {
+    text-align: justify;
+}
+.wychoose-photo {
+    text-align: center;
+}
+
+.heading-text.heading-section p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+#page-title {
+    clear: both;
+    padding: 100px 0;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.icon-boxx i {
+    font-size: 36px;
+}
+.text-box.hover-effect p {
+     opacity: 1;
+}
+.text-box.hover-effect i {
+    margin: 10px 0 20px;
+}
+.text-dark, .text-dark h1, .text-dark h2, .text-dark h3, .text-dark h4, .text-dark h5, .text-dark h6, .text-dark p, .text-dark .lead, .text-dark a:not(.btn), .text-dark a:not(.btn-danger), .text-dark a:not(.btn):hover:not(.btn-light), .text-dark i, .text-dark li, .text-dark label, .text-dark div:not(.alert), .text-dark span:not(.btn-label) {
+    /* color: #111 !important; */
+    color: #262262 !important;
+}
+
+ul.decoration {
+    list-style-type: circle;
+    text-align: left;
+    margin-left: 50px;
+}
+.text-box.hover-effect.text-dark {
+    height: 100% !important;
+}
+.heading-text.heading-section h2 {
+    position: relative;
+    font-size: 32px;
+    line-height: 56px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:400px) {
+    .nar-logo {
+        width: 35px;
+        height: 37px;
+    }
+    #header .header-inner #logo a, #header .header-inner #logo a span, #header #header-wrap #logo a, #header #header-wrap #logo a span {
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+    }
+    .p-dropdown {
+        display: none;
+    }
+    #page-title {
+        clear: both;
+        padding: 15px 0;
+        background-color: #f8f9fa;
+        position: relative;
+    }
+    .team-members.team-members-left .team-member .team-image {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .team-members.team-members-left .team-member .team-desc {
+        width: 100%;
+        text-align: justify;
+    }
+}
